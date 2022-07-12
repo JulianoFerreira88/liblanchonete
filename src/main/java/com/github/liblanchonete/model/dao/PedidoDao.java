@@ -6,18 +6,20 @@ import java.util.List;
 
 public abstract class PedidoDao {
 
-    abstract void insert(Pedido pedido);
+    public abstract void insert(Pedido pedido);
 
-    abstract void delete(Pedido pedido);
+    public abstract void delete(Pedido pedido);
 
-    abstract void update(Pedido pedido);
+    public abstract void update(Pedido pedido);
 
-    abstract void deleteById(Integer id);
+    public abstract void deleteById(Integer id);
 
-    abstract void deleteAll();
+    public abstract void deleteAll();
 
-    abstract List<Pedido> findALL();
+    public abstract List<Pedido> findALL();
 
-    abstract List<Pedido> findALLByStatus(Status status);
+    public abstract List<Pedido> findALLByStatus(Status status);
+
+    public abstract List<Pedido> findByExamlpe(Pedido example);
 
 }
