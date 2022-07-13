@@ -1,8 +1,9 @@
 package com.github.liblanchonete.model.dao;
 
+import com.github.liblanchonete.model.entities.Fornecedor;
 import java.util.List;
 
-public abstract class Fornecedor {
+public abstract class FornecedorDao {
 
     public abstract void insert(Fornecedor fornecedor);
 
