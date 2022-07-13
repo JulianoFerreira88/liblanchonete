@@ -17,7 +17,7 @@ import lombok.ToString;
 @EqualsAndHashCode
 @ToString
 public class Pedido implements Serializable {
-
+    private Integer id;
     private Date data;
     private List<ItemPedido> itens;
     private Cliente cliente;
